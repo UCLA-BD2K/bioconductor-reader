@@ -1,0 +1,18 @@
+[{
+  "url": "http://bioconductor.org/packages/release/bioc/html/a4.html",
+  "name": "a4",
+  "description": "Automated Affymetrix Array Analysis Umbrella Package",
+  "authors": ["Tobias Verbeke", " Willem Ligtenberg"],
+  "maintainers": [" Tobias Verbeke <tobias.verbeke at openanalytics.eu>", " Willem Ligtenberg <willem.ligtenberg at openanalytics.eu>"],
+  "installation": "To install this package, start R and enter:\nsource(\"http://bioconductor.org/biocLite.R\")\nbiocLite(\"a4\")",
+  "documentation": "To view documentation for the version of this package installed in your system, start R and enter:\nbrowseVignettes(\"a4\")",
+  "biocViews": ["Microarray", " Software"],
+  "version": "1.16.0",
+  "license": "GPL-3",
+  "dependencies": ["a4Base", " a4Preproc", " a4Classif", " a4Core", " a4Reporting"],
+  "imports": [""],
+  "suggestions": ["MLP", " nlcv", " ALL", " Cairo"],
+  "systemReqs": "",
+  "codeRepo": "https://github.com/Bioconductor-mirror/a4/tree/release-3.1",
+  "packageLink": "http://bioconductor.org/packages/release/bioc/src/contrib/a4_1.16.0.tar.gz"
+}]
